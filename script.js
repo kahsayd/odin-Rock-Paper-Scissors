@@ -24,4 +24,12 @@ function playRound(playerSelection, computerSelection) {
     }
 }
 
-console.log(playRound("Rock", getComputerChoice()))
+function game() {
+    console.log(playRound("Rock", getComputerChoice()));
+    console.log(playRound("Paper", getComputerChoice()));
+    console.log(playRound("Scissors", getComputerChoice()));
+    console.log(playRound("Rock", getComputerChoice()));
+    console.log(playRound("Rock", getComputerChoice()));
+}
+
+console.log(game());
